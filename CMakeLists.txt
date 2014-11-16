@@ -3,8 +3,6 @@ project(twist_mux_msgs)
 
 find_package(catkin REQUIRED COMPONENTS message_generation actionlib actionlib_msgs)
 
-include_directories(include)
-
 add_action_files(
   DIRECTORY action
   FILES
