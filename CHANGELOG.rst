@@ -2,8 +2,8 @@
 Changelog for package twist_mux_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.2 (2014-11-16)
+------------------
 * Remove not needed include_directories
 * Contributors: Enrique Fernandez
 
