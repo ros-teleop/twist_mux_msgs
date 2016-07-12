@@ -2,8 +2,8 @@
 Changelog for package twist_mux_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2016-07-12)
+------------------
 * Update README.md
   Add documentation link and build status.
 * Contributors: Enrique Fernández Perdomo
