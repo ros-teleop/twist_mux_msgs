@@ -2,6 +2,11 @@
 Changelog for package twist_mux_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Migrate to ROS2 (`#2 <https://github.com/ros-teleop/twist_mux_msgs/issues/2>`_)
+* Contributors: Victor Lopez, Noel Jimenez, Bence Magyar
+
 2.1.0 (2018-06-25)
 ------------------
 
