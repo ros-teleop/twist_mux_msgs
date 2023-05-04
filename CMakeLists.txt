@@ -1,20 +1,14 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.8)
 project(twist_mux_msgs)
 
-find_package(catkin REQUIRED COMPONENTS message_generation actionlib actionlib_msgs)
+find_package(ament_cmake REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
-include_directories(include)
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/JoyPriority.action"
+  "action/JoyTurbo.action"
+  ADD_LINTER_TESTS
+)
 
-add_action_files(
-  DIRECTORY action
-  FILES
-    JoyPriority.action
-    JoyTurbo.action)
-
-generate_messages(DEPENDENCIES actionlib_msgs)
-
-catkin_package(CATKIN_DEPENDS message_runtime actionlib_msgs)
-
-install(DIRECTORY include/${PROJECT_NAME}/
-  DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
-  FILES_MATCHING PATTERN "*.h")
+ament_export_dependencies(rosidl_default_runtime)
+ament_package()
