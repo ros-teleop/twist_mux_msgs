@@ -2,6 +2,13 @@
 Changelog for package twist_mux_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Updates for releasing (`#3 <https://github.com/ros-teleop/twist_mux_msgs/issues/3>`_)
+  * Add LICENSE file and update license to apache v2
+  * Add contributing file
+* Contributors: Bence Magyar
+
 3.0.0 (2023-05-04)
 ------------------
 * Migrate to ROS2 (`#2 <https://github.com/ros-teleop/twist_mux_msgs/issues/2>`_)
