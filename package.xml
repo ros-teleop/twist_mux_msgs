@@ -4,12 +4,12 @@
   <version>3.0.0</version>
   <description>The twist_mux msgs and actions package</description>
 
-  <maintainer email="efernandez@clearpathrobotics.com">Enrique Fernandez</maintainer>
+  <maintainer email="bence.magyar.robotics@gmail.com">Bence Magyar</maintainer>
 
   <author email="efernandez@clearpathrobotics.com">Enrique Fernandez</author>
   <author email="siegfried.gevatter@pal-robotics.com">Siegfried-A. Gevatter Pujals</author>
 
-  <license>CC BY-NC-SA 4.0</license>
+  <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <buildtool_depend>rosidl_default_generators</buildtool_depend>
